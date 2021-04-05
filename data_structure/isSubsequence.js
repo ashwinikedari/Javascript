@@ -5,7 +5,7 @@ function isSubsequence(str1, str2){
     if(!str1) return true;
     let i =0 , j=0;
     while(j<str2.length){
-        if(str1[j] === str2[i]){
+        if(str2[j] === str1[i]){
             i++;
         }
          if(i == str1.length){
@@ -27,7 +27,7 @@ function isSubsequence1(str1, str2){
 }
 
 let str1="abc";
-let str2 = "acb"
+let str2 = "abc"
 console.log(isSubsequence(str1, str2));
 console.log(isSubsequence1(str1, str2));
 

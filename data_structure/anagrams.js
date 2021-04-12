@@ -28,9 +28,9 @@ function checkAnagrams(str1, str2) {
     }
     return true;
 }
-let str11 = "cinema";
-let str22 = "icemaN";
-console.log(checkAnagrams(str11, str22));
+// let str11 = "cinema";
+// let str22 = "icemaN";
+// console.log(checkAnagrams(str11, str22));
 
 //solution 2:**********************************************************************************************
 
@@ -56,5 +56,5 @@ function checkAnagrams1(str1, str2){
 }
 
 let str11 = "cinema";
-let str22 = "icemai";
+let str22 = "iceman";
 console.log(checkAnagrams1(str11, str22));
